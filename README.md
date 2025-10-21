@@ -10,7 +10,7 @@ string decToBin(int n){string s="";while(n){s=to_string(n%2)+s;n/=2;} return s==
 int binToDec(string b){int d=0;for(char c:b)d=d*2+(c-'0'); return d;}
 string decToHex(int n){string s="";char h[]="0123456789ABCDEF";while(n){s=h[n%16]+s;n/=16;} return s==""?"0":s;}
 int hexToDec(string h){int d=0;for(char c:h){c=toupper(c);d=d*16+((c<='9')?c-'0':c-'A'+10);} return d;}
-
+ Implement menu-driven interface for all conversion options
 int main(){
     srand(time(0));
     int choice;
