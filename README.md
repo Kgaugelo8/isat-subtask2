@@ -24,7 +24,7 @@ int main(){
         cout<<"6. Exit\n";
         cout<<"Enter your choice (1-6): ";
         cin>>choice;
-
+Add Decimal to Binary and Binary to Decimal functions
         if(choice==1){
             int n; cout<<"Enter Decimal: "; cin>>n;
             cout<<"Binary: "<<decToBin(n)<<endl;
