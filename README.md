@@ -32,6 +32,7 @@ Add Decimal to Binary and Binary to Decimal functions
         else if(choice==2){
             string b; cout<<"Enter Binary: "; cin>>b;
             cout<<"Decimal: "<<binToDec(b)<<endl;
+   Add Decimal to Hexadecimal and Hexadecimal to Decimal functions         
         }
         else if(choice==3){
             int n; cout<<"Enter Decimal: "; cin>>n;
