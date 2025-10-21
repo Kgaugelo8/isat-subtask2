@@ -20,6 +20,7 @@ int main(){
         cout<<"2. Convert Binary -> Decimal\n";
         cout<<"3. Convert Decimal -> Hexadecimal\n";
         cout<<"4. Convert Hexadecimal -> Decimal\n";
+     Add Demo option to generate and convert random integers to binary
         cout<<"5. Demo (Generate and convert random integers to binary)\n";
         cout<<"6. Exit\n";
         cout<<"Enter your choice (1-6): ";
